@@ -1,0 +1,37 @@
+ToDo App
+This is a simple ToDo Application written in C, which enables users to create, view, and delete to-do items. Built with a user-friendly command-line interface, this application helps users manage their tasks effectively in a sequential list format.
+
+Features
+View To-Do List
+
+Displays all tasks with a unique identifier for easy reference.
+Add New To-Do
+
+Allows users to add a new task to the list.
+Each new task is appended and numbered in sequence.
+Delete To-Do
+
+Users can delete a task by entering its corresponding number.
+Task numbers are automatically adjusted after deletion to maintain sequential order.
+How It Works
+Interface
+
+The application welcomes users and presents a menu with options to view, add, or delete tasks, or exit the app.
+Adding Tasks
+
+When adding tasks, users are prompted to enter a description. Each task is saved and assigned a unique identifier.
+Viewing Tasks
+
+All tasks are displayed in order with their respective identifiers.
+Deleting Tasks
+
+Users can delete tasks by specifying their identifier, and the list is automatically renumbered for consistency.
+Setup and Usage
+Clone the repository.
+Compile the code (e.g., using gcc todo.c -o todo).
+Run the executable (e.g., ./todo).
+Follow the on-screen instructions to manage your tasks.
+Future Enhancements
+Save tasks to a file to persist between sessions.
+Add an option to mark tasks as completed.
+Add a search function to find tasks by keywords.
